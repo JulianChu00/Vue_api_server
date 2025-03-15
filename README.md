@@ -19,4 +19,4 @@
 - `package.json` 项目配置文件
 
 ## 如何使用?
-- 先运行app.js再运行node app.js
+- 先运行npm i再运行node app.js
