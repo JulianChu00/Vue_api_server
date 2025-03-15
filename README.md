@@ -1,4 +1,10 @@
-#### 项目整体文件说明
+# Vue API Server
+
+## 项目说明
+
+这是一个基于Node.js开发的后台管理系统API服务器，为前端项目提供数据接口支持。
+
+## 项目整体文件说明
 - `config` 配置文件目录
   - `default.json` 默认配置文件（其中包含数据库配置，jwt配置）
 - `dao` 数据访问层，存放对数据库的增删改查操作
@@ -18,5 +24,31 @@
 - `app.js` 主项目入口文件
 - `package.json` 项目配置文件
 
-## 如何使用?
-- 先运行npm i再运行node app.js
+## 如何使用
+
+```bash
+# 克隆项目
+git clone https://github.com/JulianChu00/Vue_api_server.git
+
+# 进入项目目录
+cd Vue_api_server
+
+# 安装依赖
+npm install
+
+# 启动服务
+node app.js
+```
+
+## API文档
+
+启动服务后，可访问API接口，默认基础路径为：`http://127.0.0.1:8888/api/private/v1/`
+
+## 系统要求
+
+- Node.js 8.0+
+- MySQL
+
+## 许可证
+
+[MIT](LICENSE)
